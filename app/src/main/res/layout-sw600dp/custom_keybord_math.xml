@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/rl_top_name_equations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:id="@+id/btn_eq_name_pre_scroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="onkbclick"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/kb_eq_pre"
+                />
+
+            <HorizontalScrollView
+                android:id="@+id/hsv_keyboard_eq_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_centerVertical="true"
+                android:scrollbars="none"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:text="Basic Math"
+                        android:textColor="#000000"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:clickable="true"
+                        android:onClick="onkbclick"
+                        android:id="@+id/kb_tv_eq_name_basicmath"
+                        android:background="#C2C4C2"
+                        android:padding="6dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:text="Pre-Algebra"
+                        android:textColor="#000000"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:clickable="true"
+                        android:onClick="onkbclick"
+                        android:id="@+id/kb_tv_eq_name_prealgebra"
+                        android:padding="6dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:text="Algebra"
+                        android:textColor="#000000"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:clickable="true"
+                        android:onClick="onkbclick"
+                        android:id="@+id/kb_tv_eq_name_algebra"
+                        android:padding="6dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:text="Trigonometry"
+                        android:textColor="#000000"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:clickable="true"
+                        android:onClick="onkbclick"
+                        android:id="@+id/kb_tv_eq_name_trignometry"
+                        android:padding="6dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:text="Precalculus"
+                        android:textColor="#000000"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:clickable="true"
+                        android:onClick="onkbclick"
+                        android:id="@+id/kb_tv_eq_name_precalculus"
+                        android:padding="6dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:text="Calculus"
+                        android:textColor="#000000"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:clickable="true"
+                        android:onClick="onkbclick"
+                        android:id="@+id/kb_tv_eq_name_calculus"
+                        android:padding="6dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:text="Statistics"
+                        android:textColor="#000000"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:clickable="true"
+                        android:onClick="onkbclick"
+                        android:id="@+id/kb_tv_eq_name_statistics"
+                        android:padding="6dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:text="Finite Math"
+                        android:textColor="#000000"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:clickable="true"
+                        android:onClick="onkbclick"
+                        android:id="@+id/kb_tv_eq_name_finitemath"
+                        android:padding="6dp"/>
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <ImageView
+                android:id="@+id/btn_eq_name_next_scroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="onkbclick"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/kb_eq_next"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll__top_symbol_equations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_top_name_equations"
+        android:orientation="vertical"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/btn_eq_symbol_pre_scroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="onkbclick"
+                android:visibility="gone"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/kb_eq_pre"
+                />
+
+            <HorizontalScrollView
+                android:id="@+id/hsv_keyboard_eq_symbol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:scrollbars="none"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical">
+
+                    <include layout="@layout/custom_keyboard_eq_symbol"/>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <ImageView
+                android:id="@+id/btn_eq_symbol_next_scroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="onkbclick"
+                android:visibility="gone"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/kb_eq_next"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll__top_symbol_equations"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/kb_ll_123"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <include layout="@layout/custom_keyboard_123"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/kb_ll_abc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical"
+            >
+            <include layout="@layout/custom_keyboard_abc"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_main_eq_sub_symbol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:layout_below="@+id/ll__top_symbol_equations"
+        android:background="@drawable/background_with_border">
+
+        <include layout="@layout/custom_keyboard_eq_sub_symbol"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

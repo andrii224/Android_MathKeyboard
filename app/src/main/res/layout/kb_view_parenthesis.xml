@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:tag="parenthesis"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:tag="op_integral"
+        android:minHeight="40dp"
+        android:onClick="onkb_sum_symbol_click"
+        android:src="@drawable/lt_temp3"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/ll_parenthesis_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:tag="op_integral"
+        android:minHeight="40dp"
+        android:onClick="onkb_sum_symbol_click"
+        android:src="@drawable/rt_temp3"
+        />
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/checkHomeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/kb_ll_height_90"
+        android:background="@android:color/white" >
+
+        <TextView
+            android:id="@+id/txtNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtLeftUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2dp"
+            android:text="unit"
+            android:visibility="gone"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btnSeeAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/btnRoughWork"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnRoughWork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone" />
+
+
+
+        <HorizontalScrollView
+            android:id="@+id/hsv_ans_box"
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/txtNumber"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:scrollbars="none"
+            android:background="@drawable/trans_bg_with_border"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/kb_ll_height_80">
+
+            <LinearLayout
+                android:id="@+id/ll_ans_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/kb_ll_height_80"
+                android:minWidth="@dimen/kb_minwidth_ll"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                >
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D5D5D5" />
+
+</LinearLayout>

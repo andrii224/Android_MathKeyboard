@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView                 android:clickable="true"
+                android:id="@+id/kb_btn_123_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:tag="X"
+                android:onClick="onkb_123_click"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/kb_bg_123_white"
+                android:layout_margin="3dp"
+                 />
+
+            <TextView                 android:clickable="true"
+                android:id="@+id/kb_btn_123_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:tag="7"
+                android:onClick="onkb_123_click"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/kb_bg_123_white"
+                android:layout_margin="3dp"
+                />
+
+            <TextView                 android:clickable="true"
+                android:id="@+id/kb_btn_123_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:tag="8"
+                android:onClick="onkb_123_click"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/kb_bg_123_white"
+                android:layout_margin="3dp"
+                />
+
+            <TextView                 android:clickable="true"
+                android:id="@+id/kb_btn_123_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:tag="9"
+                android:onClick="onkb_123_click"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/kb_bg_123_white"
+                android:layout_margin="3dp"
+                />
+
+            <TextView                 android:clickable="true"
+                android:id="@+id/kb_btn_123_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:tag="op_plus"
+                android:onClick="onkb_123_symbol_click"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/kb_bg_123_white"
+                android:layout_margin="3dp"
+                />
+
+            <TextView                 android:clickable="true"
+                android:id="@+id/kb_btn_123_plus_and_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+/-"
+                android:tag="+/-"
+                android:onClick="onplusminusclick"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/kb_bg_123_white_new"
+                android:layout_margin="3dp"
+                />
+
+            <TextView                 android:clickable="true"
+                android:id="@+id/kb_btn_123_left_rbreaket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="("
+                android:tag="parenthesis"
+                android:onClick="onkb_sub_symbol_click"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/kb_bg_123_white_new"
+                android:layout_margin="3dp"
+                />
+
+            <TextView                 android:clickable="true"
+                android:id="@+id/kb_btn_123_right_rbreaket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=")"
+                android:tag="parenthesis"
+                android:onClick="onkb_sub_symbol_click"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@drawable/kb_bg_123_white_new"
+                android:layout_margin="3dp"
+                />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y"
+            android:tag="Y"
+            android:onClick="onkb_123_click"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/kb_bg_123_white"
+            android:layout_margin="3dp"
+            />
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:tag="4"
+            android:onClick="onkb_123_click"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/kb_bg_123_white"
+            android:layout_margin="3dp"
+            />
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:tag="5"
+            android:onClick="onkb_123_click"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/kb_bg_123_white"
+            android:layout_margin="3dp"
+            />
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:tag="6"
+            android:onClick="onkb_123_click"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/kb_bg_123_white"
+            android:layout_margin="3dp"
+            />
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:tag="op_minus"
+            android:onClick="onkb_123_symbol_click"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/kb_bg_123_white"
+            android:layout_margin="3dp"
+            />
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_equal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:tag="op_equal"
+            android:onClick="onkb_123_symbol_click"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/kb_bg_123_white"
+            android:layout_margin="3dp"
+            />
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="@drawable/kb_bg_123_delete"
+            android:layout_margin="3dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z"
+            android:tag="Z"
+            android:onClick="onkb_123_click"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/kb_bg_123_white"
+            android:layout_margin="3dp"
+            />
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:tag="1"
+            android:onClick="onkb_123_click"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/kb_bg_123_white"
+            android:layout_margin="3dp"
+            />
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:tag="2"
+            android:onClick="onkb_123_click"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/kb_bg_123_white"
+            android:layout_margin="3dp"
+            />
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:tag="3"
+            android:onClick="onkb_123_click"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/kb_bg_123_white"
+            android:layout_margin="3dp"
+            />
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_multiplication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:tag="op_multi"
+            android:onClick="onkb_123_symbol_click"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/kb_bg_123_white"
+            android:layout_margin="3dp"
+            />
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:onClick="onpreviousclick"
+            android:background="@drawable/kb_bg_123_previous"
+            android:layout_margin="3dp"
+            />
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:onClick="onnextclick"
+            android:background="@drawable/kb_bg_123_next"
+            android:layout_margin="3dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_abc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abc"
+            android:textSize="20sp"
+            android:onClick="onkbclick"
+            android:gravity="center"
+            android:background="@drawable/kb_bg_123_abc"
+            android:layout_margin="3dp"
+            />
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:tag="."
+            android:onClick="onkb_123_click"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/kb_bg_123_white"
+            android:layout_margin="3dp"
+            />
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:tag="0"
+            android:onClick="onkb_123_click"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/kb_bg_123_white"
+            android:layout_margin="3dp"
+            />
+
+        <TextView                 android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=","
+            android:tag=","
+            android:onClick="onkb_123_click"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/kb_bg_123_white"
+            android:layout_margin="3dp"
+            />
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_divide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:tag="op_divide"
+            android:onClick="onkb_123_symbol_click"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/kb_bg_123_white"
+            android:layout_margin="3dp"
+            />
+
+        <TextView                 android:clickable="true"
+        android:id="@+id/kb_btn_123_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@drawable/kb_bg_123_return"
+        android:layout_margin="3dp"
+        />
+
+        <TextView                 android:clickable="true"
+            android:id="@+id/kb_btn_123_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onkbclick"
+            android:background="@drawable/kb_bg_123_close"
+            android:layout_margin="3dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="kb_ll_height_80">70dp</dimen>
+    <dimen name="kb_ll_height_90">80dp</dimen>
+
+    <dimen name="kb_margin_left">80dp</dimen>
+
+    <dimen name="kb_vv_absolute_height">27dp</dimen>
+    <dimen name="kb_textsize_main">16sp</dimen>
+    <dimen name="kb_textsize_sub">12sp</dimen>
+    <dimen name="kb_textsize_main_2">20sp</dimen>
+    <dimen name="kb_textsize_main_3">30sp</dimen>
+    <dimen name="kb_textsize_main_4">30sp</dimen>
+
+    <dimen name="kb_minwidth_ll">330dp</dimen>
+
+    <dimen name="kb_height_123_btn">27dp</dimen>
+    <dimen name="kb_width_abc_btn">30dp</dimen>
+    <dimen name="kb_width_123_btn">45dp</dimen>
+
+    <dimen name="kb_width_abc_btn_2">65dp</dimen>
+    <dimen name="kb_width_abc_btn_3">175.5dp</dimen>
+
+    <dimen name="kb_height_eq_symbol_1">38dp</dimen>
+    <dimen name="kb_width_eq_symbol_1">22dp</dimen>
+    <dimen name="kb_width_eq_symbol_2">27dp</dimen>
+    <dimen name="kb_width_eq_symbol_3">37dp</dimen>
+    <dimen name="kb_width_eq_symbol_4">47dp</dimen>
+
+
+    <dimen name="kb_padding_left">5dp</dimen>
+
+    <dimen name="kb_padding_sin">12dp</dimen>
+
+    <dimen name="kb_height_eq_sub_symbol_1">50dp</dimen>
+    <dimen name="kb_width_eq_sub_symbol_2">51dp</dimen>
+    <dimen name="kb_width_eq_sub_symbol_3">60dp</dimen>
+    <dimen name="kb_width_eq_sub_symbol_1">40dp</dimen>
+
+    <dimen name="kb_width_123_btn_2">27dp</dimen>
+    <dimen name="kb_width_123_btn_3">54dp</dimen>
+    <dimen name="kb_width_123_btn_4">34dp</dimen>
+
+    <dimen name="kb_pre_next_btn">40dp</dimen>
+
+    <dimen name="kb_textsize_123">14sp</dimen>
+    <dimen name="kb_textsize_abc">13sp</dimen>
+    <dimen name="kb_textsize_eq_name">16sp</dimen>
+
+    <dimen name="vv_height">85dp</dimen>
+    <dimen name="keyboard_height">215dp</dimen>
+    <dimen name="btm_mrgn">120dp</dimen>
+    <dimen name="assign_home_work_quizz_student_answer_edt_layout_width">80dp</dimen>
+    <dimen name="kb_assign_home_work_quizz_student_answer_edt_layout">40dp</dimen>
+
+
+    <dimen name="TextSizeForPopUpForNew">12dp</dimen>
+    <dimen name="TextSizeForPopUp">15dp</dimen>
+    <dimen name="TextSizeBig">24dp</dimen>
+    <dimen name="TextSizeMedium">20dp</dimen>
+    <dimen name="TextSizeSmall">18dp</dimen>
+    <dimen name="TextSizeSmall_for_submit_policy">10dp</dimen>
+    <dimen name="marginLeftForMultiPleChoiceLayout">30dp</dimen>
+
+    <integer name="widthForResultlayout">110</integer>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="act_home_work_list_text_size">10sp</dimen>
+    <dimen name="Act_Home_Work_TextSize">14sp</dimen>
+    <dimen name="act_home_top_view_height">100dp</dimen>
+    <dimen name="act_home_quizz_question_type_textsize">16sp</dimen>
+    <dimen name="act_check_home_top_view_height">100dp</dimen>
+    <dimen name="act_home_bottom_view_height">100dp</dimen>
+    <dimen name="check_home_work_option_layout_height_and_width">25dp</dimen>
+    <dimen name="home_work_quizz_blank_layout_height">60dp</dimen>
+    <dimen name="show_credit_color_height">40dp</dimen>
+    <dimen name="credit_color_height_width">20dp</dimen>
+
+    <integer name="max_line_for_teacher_message_HW_quizz">4</integer>
+
+    <dimen name="act_get_help_top_view_height">50dp</dimen>
+    <dimen name="get_help_student_rating_Star_height_and_width">25dp</dimen>
+    <dimen name="get_help_student_rating_Star_margin_left">2dp</dimen>
+    <dimen name="teacher_function_marging_top_layout">15dp</dimen>
+    <dimen name="teacher_function_text_size">16sp</dimen>
+    <dimen name="teacher_assign_home_work_grade_spinner_height">30dp</dimen>
+    <dimen name="teacher_assign_home_work_grade_spinner_width">60dp</dimen>
+    <dimen name="teacher_assign_home_work_grade_updown_image_height">30dp</dimen>
+    <dimen name="teacher_assign_home_work_grade_updown_image_margin_left">40dp</dimen>
+    <dimen name="teacher_assign_home_work_grade_spinner_width_dueDate">100dp</dimen>
+    <dimen name="teacher_assign_home_work_grade_updown_image_height_dueDate">30dp</dimen>
+    <dimen name="teacher_assign_home_work_grade_updown_image_margin_left_width_dueDate">80dp</dimen>
+    <dimen name="assign_practice_skill_screen_text_size">15sp</dimen>
+    <dimen name="assign_home_work_title_layout_height">40dp</dimen>
+    <dimen name="assign_home_work_title_layout_widgets_height">35dp</dimen>
+    <dimen name="assign_home_work_title_layout_ans_button_width">80dp</dimen>
+    <dimen name="assign_home_work_title_layout_edit_layout_button_width">110dp</dimen>
+    <dimen name="assign_home_work_quizz_student_answer_edt_layout">80dp</dimen>
+    <dimen name="assign_home_work_quizz_student_answer_edt_layout_txt_size">12sp</dimen>
+    <dimen name="assign_home_work_quizz_student_answer_edt_layout_possition_of_unit">100dp</dimen>
+    <dimen name="assign_home_work_quizz_student_answer_edt_layout_possition_of_unit_margin_right">50dp</dimen>
+    <dimen name="TextSize">12dp</dimen>
+    <dimen name="videosize">20dp</dimen>
+    <dimen name="homeBottom_width">150dp</dimen>
+    <dimen name="video_margin_top">25dp</dimen>
+    <dimen name="arrow_margin_top">30dp</dimen>
+    <dimen name="teacher_function_layout_hight">45dp</dimen>
+    <dimen name="introduction_help_margin_top_bw_layout">10dp</dimen>
+    <dimen name="view_homework_sheet_button_width">100dp</dimen>
+    <dimen name="view_homework_sheet_text_size">10sp</dimen>
+    <dimen name="help_mathfriendzy_height">60dp</dimen>
+    <dimen name="tutorial_layout_height">250dp</dimen>
+    <dimen name="tutorial_layout_width">320dp</dimen>
+    <dimen name="tutorial_header_text_size">30sp</dimen>
+    <dimen name="setting_tutorial_margin_left">20dp</dimen>
+    <dimen name="tutorial_layout_school_funtion_top_marging">325dp</dimen>
+
+    <!-- HelpScreen -->
+    <dimen name="help_main_button_text">16sp</dimen>
+    <dimen name="help_sub_button_text">13sp</dimen>
+    <dimen name="help_introduction_bottom_layout_height">30dp</dimen>
+
+    <!-- Registration step1 -->
+    <dimen name="are_you_a_layout_height">35dp</dimen>
+    <dimen name="registration_step_one_edittext_height">35dp</dimen>
+
+    <!-- Work area eraser height width -->
+    <dimen name="eraser_circle_height">50dp</dimen>
+    <dimen name="eraser_circle_width">50dp</dimen>
+
+    <!-- Plus button screen for new tutor changes -->
+    <dimen name="see_answer_button_width">200dp</dimen>
+    <dimen name="see_answer_button_height">40dp</dimen>
+
+    <!-- Find a tutor screen -->
+    <dimen name="find_a_tutor_screen_width">320dp</dimen>
+
+
+    <!--Help A Student-->
+    <dimen name="helping_student_table_header_layout_height">35dp</dimen>
+    <dimen name="helping_student_table_header_layout_text_size">12sp</dimen>
+    <dimen name="borer_line_width">2dp</dimen>
+    <dimen name="helping_student_online_icon_height_width">15dp</dimen>
+    <dimen name="helping_student_view_icon_height_width">30dp</dimen>
+    <dimen name="helping_student_connect_icon_height">30dp</dimen>
+    <dimen name="helping_student_connect_icon_width">35dp</dimen>
+    <dimen name="helping_student_rating_icon_height_width">20dp</dimen>
+
+    <!--Rate us dailog-->
+    <dimen name="rate_us_dialog_Star_height_and_width">40dp</dimen>
+
+    <!--Act Manege tutor my student-->
+    <dimen name="manege_tutot_my_student_header_layout_height">50dp</dimen>
+    <dimen name="manage_tutor_my_student_layout_images_height_width">20dp</dimen>
+    <dimen name="manage_tutor_my_student_student_name_text_size">10sp</dimen>
+
+    <!-- Act Manage tutor send email to tutor teacher-->
+    <dimen name="manage_tutor_send_button_margin_top">10dp</dimen>
+    <dimen name="manage_tutor_send_email_text_size">15dp</dimen>
+    <dimen name="manage_tutor_send_email_layout_margin_left_right">20dp</dimen>
+    <dimen name="manage_tutor_send_email_layout_margin_top">15dp</dimen>
+    <dimen name="manage_tutor_send_email_problem_edit_text_height">220dp</dimen>
+    <dimen name="manage_tutor_send_email_problem_edit_text_margin_top">10dp</dimen>
+    <dimen name="manage_tutor_send_edit_text_top_bottom_padding">20dp</dimen>
+    <dimen name="manage_tutor_send_edit_text_left_right_padding">25dp</dimen>
+
+
+    <!--Resize layout minimum height and width-->
+    <dimen name="resize_layout_min_height">100dp</dimen>
+    <dimen name="resize_layout_min_width">150dp</dimen>
+
+    <!-- Account Screen-->
+    <dimen name="player_list_title_text_size">18dp</dimen>
+    <dimen name="tab_lavel_text_size">18dp</dimen>
+
+    <!-- Manage Tutor Student Screen Total time Tutoring hours -->
+    <dimen name="txtTotalTimeHelpingStudent_width">50dp</dimen>
+    <dimen name="txtFromDate_width">100dp</dimen>
+    <dimen name="margin_left_between_layout">5dp</dimen>
+    <dimen name="to_from_date_text_size">11sp</dimen>
+
+    <!-- Tutoring Session-->
+    <dimen name="text_tutoring_heading_size">16sp</dimen>
+    <dimen name="text_tutoring_heading_margin_left">30sp</dimen>
+    <dimen name="text_tutoring_heading_margin_right">30sp</dimen>
+    <dimen name="tutoring_student_list_width">610dp</dimen>
+    <dimen name="borer_line_width_for_tutoring_session">1dp</dimen>
+
+    <!--Main Screen UI Changes-->
+    <dimen name="main_screen_button_height">60dp</dimen>
+    <dimen name="main_screen_button_height_for_low_denisity_tab">110dp</dimen>
+    <dimen name="main_screen_button_margin_top_for_activity_large">12dp</dimen>
+
+
+    <!--Professional Tutor Screen-->
+    <dimen name="professional_Tutors_text_size">30sp</dimen>
+    <dimen name="package_button_text_size">16sp</dimen>
+    <dimen name="layout_margin_top">10dp</dimen>
+    <dimen name="tutor_free_layout_margin_top">20dp</dimen>
+    <dimen name="btnPreviousSession_margin_top">10dp</dimen>
+    <dimen name="top_margin_gap_between_texts">10dp</dimen>
+
+    <!--Tutoring Package-->
+    <dimen name="tutoring_package_text_size">30sp</dimen>
+    <dimen name="tutoring_current_package_text_size">18sp</dimen>
+    <dimen name="margin_between_tutoring_texts">10sp</dimen>
+    <dimen name="tutoring_package_layout_margin_top">15dp</dimen>
+    <dimen name="tutoring_package_packages_layout_width">610dp</dimen>
+    <dimen name="tutoring_package_custom_quantity_layout_text_size">18sp</dimen>
+    <dimen name="tutoring_package_item_height">50dp</dimen>
+    <dimen name="tutoring_package_item_height_for_calculation">52dp</dimen>
+    <dimen name="tutoring_single_type_package_layout_height">40dp</dimen>
+    <dimen name="tutoring_single_type_package_layout_height_for_calculation">42dp</dimen>
+    <dimen name="tutoring_txt_monthly_recurring_package_text_size">25sp</dimen>
+    <!--Try It Free Now-->
+    <dimen name="txt_you_currently_have_margin_top">20dp</dimen>
+
+    <!--Home UI Change-->
+    <dimen name="home_page_button_icon_height">40dp</dimen>
+    <dimen name="home_page_button_icon_width">40dp</dimen>
+    <dimen name="home_page_button_icon_margin_left">30dp</dimen>
+    <dimen name="home_page_button_icon_height_low_denisity">70dp</dimen>
+    <dimen name="home_page_button_icon_width_low_denisity">70dp</dimen>
+
+    <!--Credit Card Into -->
+    <dimen name="edt_card_detail_layout_height">60dp</dimen>
+    <dimen name="payment_type_image_height">30dp</dimen>
+    <dimen name="payment_type_image_width">60dp</dimen>
+
+    <!--Math Plus change-->
+    <dimen name="math_plus_home_screen_button_text_size">20sp</dimen>
+    <dimen name="math_plus_home_punch_line_text_size">15sp</dimen>
+    <dimen name="math_plus_home_top_margin_gap_between_layouts">10dp</dimen>
+    <dimen name="math_plus_home_screen_logo_bottom_margin">20dp</dimen>
+    <dimen name="math_plus_home_active_input_width">16dp</dimen>
+    <dimen name="math_plus_home_active_input_height">15dp</dimen>
+    <dimen name="math_plus_home_active_input_text_size">9sp</dimen>
+
+    <!--Math Plus Assessment Report/Teacher function screen change-->
+    <dimen name="teacher_function_teacher_function_text_size">30sp</dimen>
+    <dimen name="teacher_function_register_student_text_size">15sp</dimen>
+
+    <!--Fun With Math-->
+    <dimen name="fun_with_math_text_size">30sp</dimen>
+    <dimen name="fun_with_math_top_margin_gap_between_layouts">40dp</dimen>
+    <dimen name="fun_with_math_layout_width">-1dp</dimen>
+
+    <!-- Resource Home Screen-->
+    <dimen name="browse_over_text_size">25sp</dimen>
+    <dimen name="made_by_text_size">18sp</dimen>
+    <dimen name="resource_image_icon_height">60dp</dimen>
+    <dimen name="resource_image_icon_width">40dp</dimen>
+    <dimen name="bottom_navigate_layout_width">180dp</dimen>
+
+    <dimen name="teacher_function_button_height">50dp</dimen>
+
+
+    <!-- Rate Us dialog text size -->
+    <dimen name="rate_us_enjoying_popup_text_size">20sp</dimen>
+    <dimen name="rate_us_enjoying_popup_yes_text_size">17sp</dimen>
+
+    <!-- Single friendzy Layout -->
+    <dimen name="play_again_level_button_width">100dp</dimen>
+    <dimen name="play_again_level_button_height">50dp</dimen>
+    <dimen name="play_level_button_width">100dp</dimen>
+    <dimen name="play_level_button_height">50dp</dimen>
+    <dimen name="play_level_first_index_button_height">40dp</dimen>
+    <dimen name="play_level_first_index_button_width">90dp</dimen>
+
+    <!-- More App -->
+    <!-- <dimen name="grid_view_width">-1dp</dimen> -->
+    <dimen name="grid_view_width">300dp</dimen>
+    <dimen name="app_detail_layout_icon_height">90dp</dimen>
+    <dimen name="app_detail_layout_icon_width">90dp</dimen>
+    <dimen name="app_detail_layout_text_size">12dp</dimen>
+    <dimen name="app_detail_layout_app_name_text_size">13dp</dimen>
+    <dimen name="more_app_top_text_size">20sp</dimen>
+    <dimen name="more_app_free_button_height">25dp</dimen>
+    <dimen name="more_app_layout_free_button_top_margin">2dp</dimen>
+    <dimen name="more_app_layout_app_name_height">20dp</dimen>
+
+
+    <!--New Change-->
+    <dimen name="try_it_free_now_free_layout_button_margin_top">15dp</dimen>
+    <dimen name="package_button_height">40dp</dimen>
+    <dimen name="professional_Tutors__for_as_low_text_size">20sp</dimen>
+    <dimen name="package_button_width">200dp</dimen>
+
+
+    <!-- Phrase List on Tutoring session-->
+    <dimen name="phrase_list_width">200dp</dimen>
+    <dimen name="phrase_list_height">300dp</dimen>
+    <dimen name="pharse_text_size_for_category_layout">17sp</dimen>
+
+    <!--New Math Plus Change-->
+    <dimen name="main_screen_math_plus_logo_height">50dp</dimen>
+
+    <!--Resource Change for phone-->
+    <dimen name="act_custom_ans_resource_and_homework_sheet_button_width">120dp</dimen>
+    <dimen name="act_custom_ans_resource_and_homework_sheet_button_height">35dp</dimen>
+    <dimen name="act_selected_resource_add_resource_button_width">100dp</dimen>
+    <dimen name="act_selected_resource_add_resource_button_width_text_size">12sp</dimen>
+    <dimen name="act_selected_resource_add_resource_button_layout_margin_left_and_right">10dp</dimen>
+
+    <!--Assign homework fill in assign homework slide layout-->
+    <dimen name="assign_custome_homework_fillinlayout_dialog_btnFillInAddLine">70dp</dimen>
+    <dimen name="assign_custome_homework_fillinlayout_dialog_btnMultipleChoice">90dp</dimen>
+    <dimen name="assign_custome_homework_fillinlayout_dialog_btnOnworkAreaFillIn">90dp</dimen>
+    <dimen name="assign_custome_homework_fillinlayout_dialog_bntDeleteFillIn">70dp</dimen>
+
+    <!--New Resource Screen for category and subcategory-->
+    <dimen name="resource_main_category_header_text_size">20sp</dimen>
+
+    <!--New Activity Plus Changes-->
+    <dimen name="need_help_text_margin_top">20dp</dimen>
+
+    <!--Student Viewd Answer Change-->
+    <dimen name="rl_student_viewed_answer_bottom_margin">10dp</dimen>
+
+    <!--Registration change-->
+    <dimen name="margin_between_views_registration_step1">10dp</dimen>
+    <dimen name="registration_submit_button_width">200dp</dimen>
+
+</resources>

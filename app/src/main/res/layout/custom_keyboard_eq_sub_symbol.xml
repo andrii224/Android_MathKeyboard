@@ -1,0 +1,3103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_basicmath_sign1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_basicmath_sign1_1"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_goe"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_01"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_basicmath_sign1_2"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_loe"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_02"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_basicmath_sign1_3"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_grthan"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_03"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_basicmath_sign1_4"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_lethan"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_04"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_basicmath_sign1_5"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_equal"
+            android:visibility="gone"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_05"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_basicmath_sign2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_basicmath_sign2_2"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_percentage"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign2_02"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:tag="op_pi"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_prealgebra_sign2_03"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_basicmath_sign5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="squareroot"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign5_01"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="nthroot"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign5_02"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_prealgebra_sign1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_prealgebra_sign1_1"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_goe"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_01"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_prealgebra_sign1_2"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_loe"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_02"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_prealgebra_sign1_3"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_grthan"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_03"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_prealgebra_sign1_4"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_lethan"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_04"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_prealgebra_sign1_5"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_equal"
+            android:visibility="gone"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_05"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_prealgebra_sign2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_prealgebra_sign2_2"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_percentage"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign2_02"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_prealgebra_sign2_3"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:tag="op_pi"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_prealgebra_sign2_03"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_prealgebra_sign4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="super_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_superscript"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="sub_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_subscript"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="super_sub_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_super_sub_script"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_prealgebra_sign5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="squareroot"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign5_01"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="nthroot"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign5_02"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_algebra_sign1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_algebra_sign1_1"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_goe"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_01"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_algebra_sign1_2"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_loe"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_02"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_algebra_sign1_3"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_grthan"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_03"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_algebra_sign1_4"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_lethan"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_04"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_algebra_sign1_5"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_equal"
+            android:visibility="gone"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_05"
+            />
+
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_algebra_sign1_6"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:tag="op_intersection"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_algebra_sign1_06"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_algebra_sign1_7"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:tag="op_union"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_algebra_sign1_07"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_algebra_sign2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_algebra_sign2_1"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_pi"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_prealgebra_sign2_03"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_algebra_sign2_2"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" e"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign2_02"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_algebra_sign2_3"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" i"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign2_03"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_algebra_sign2_5"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_percentage"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign2_02"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:tag="op_factorial"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_algebra_sign2_04"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:tag="op_infinity"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_algebra_sign2_05"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_algebra_sign4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="super_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_superscript"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="sub_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_subscript"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="super_sub_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_super_sub_script"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_algebra_sign5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="squareroot"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign5_01"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="nthroot"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign5_02"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_algebra_sign8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" log"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign8_01"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" ln"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign8_02"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_trignometry_sign1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_trignometry_sign1_1"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_goe"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_01"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_trignometry_sign1_2"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_loe"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_02"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_trignometry_sign1_3"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_grthan"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_03"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_trignometry_sign1_4"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_lethan"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_04"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_trignometry_sign1_5"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_equal"
+            android:visibility="gone"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_05"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_trignometry_sign2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_trignometry_sign2_1"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_pi"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_prealgebra_sign2_03"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_trignometry_sign2_2"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_degree"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_trignometry_sign2_02"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_trignometry_sign2_3"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="theta"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_trignometry_sign2_03"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_trignometry_sign2_4"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" e"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign2_02"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_trignometry_sign2_5"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" i"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign2_03"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:tag="op_factorial"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_algebra_sign2_04"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:tag="op_infinity"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_algebra_sign2_05"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_trignometry_sign4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="super_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_superscript"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="sub_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_subscript"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="super_sub_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_super_sub_script"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_trignometry_sign5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="squareroot"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign5_01"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="nthroot"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign5_02"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_trignometry_sign7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" log"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign8_01"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" ln"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign8_02"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_trignometry_sign8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sin"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" sin"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arcsin"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arcsin"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sinh"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" sinh"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_trignometry_sign9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cos"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" cos"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arccos"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arccos"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cosh"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" cosh"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_trignometry_sign10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tan"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" tan"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arctan"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arctan"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tanh"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" tanh"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_trignometry_sign11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sec"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" sec"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arcsec"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arcsec"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sech"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" sech"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_trignometry_sign12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="csc"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" csc"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arccsc"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arccsc"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="csch"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" csch"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_trignometry_sign13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cot"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" cot"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arccot"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arccot"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="coth"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" coth"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_precalculus_sign1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_precalculus_sign1_1"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_goe"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_01"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_precalculus_sign1_2"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_loe"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_02"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_precalculus_sign1_3"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_grthan"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_03"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_precalculus_sign1_4"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_lethan"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_04"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_precalculus_sign1_5"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_equal"
+            android:visibility="gone"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_05"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_precalculus_sign2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_pi"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_prealgebra_sign2_03"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_precalculus_sign2_2"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_degree"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_trignometry_sign2_02"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="theta"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_trignometry_sign2_03"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" e"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign2_02"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" i"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign2_03"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_algebra_sign2_7"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:tag="op_factorial"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_algebra_sign2_04"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:tag="op_infinity"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_algebra_sign2_05"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_precalculus_sign4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="super_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_superscript"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="sub_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_subscript"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="super_sub_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_super_sub_script"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_precalculus_sign5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="squareroot"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign5_01"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="nthroot"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign5_02"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_precalculus_sign9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" log"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign8_01"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" ln"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign8_02"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_precalculus_sign10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sin"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" sin"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arcsin"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arcsin"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sinh"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" sinh"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_precalculus_sign11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cos"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" cos"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arccos"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arccos"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cosh"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" cosh"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_precalculus_sign12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tan"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" tan"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arctan"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arctan"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tanh"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" tanh"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_precalculus_sign13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sec"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" sec"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arcsec"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arcsec"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sech"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" sech"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_precalculus_sign14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="csc"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" csc"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arccsc"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arccsc"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="csch"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" csch"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_precalculus_sign15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cot"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" cot"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arccot"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arccot"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="coth"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" cotn"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_calculus_sign1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_calculus_sign1_1"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_goe"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_01"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_calculus_sign1_2"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_loe"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_02"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_calculus_sign1_3"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_grthan"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_03"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_calculus_sign1_4"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_lethan"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_04"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_calculus_sign1_5"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_equal"
+            android:visibility="gone"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_05"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_calculus_sign2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_pi"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_prealgebra_sign2_03"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_calculus_sign2_2"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_degree"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_trignometry_sign2_02"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="theta"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_trignometry_sign2_03"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" e"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign2_02"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" i"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign2_03"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:tag="op_factorial"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_algebra_sign2_04"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:tag="op_infinity"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_algebra_sign2_05"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_calculus_sign4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="super_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_superscript"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="sub_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_subscript"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="super_sub_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_super_sub_script"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_calculus_sign5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="squareroot"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign5_01"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="nthroot"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign5_02"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_calculus_sign10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" log"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign8_01"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" ln"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign8_02"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_calculus_sign11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sin"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" sin"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arcsin"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arcsin"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sinh"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" sinh"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_calculus_sign12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cos"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" cos"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arccos"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arccos"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cosh"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" cosh"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_calculus_sign13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tan"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" tan"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arctan"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arctan"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tanh"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" tanh"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_calculus_sign14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sec"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" sec"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arcsec"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arcsec"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sech"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" sech"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_calculus_sign15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="csc"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" csc"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arccsc"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arccsc"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="csch"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" csch"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_calculus_sign16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cot"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" cot"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="arccot"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" arccot"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="coth"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/kb_textsize_eq_name"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:tag=" coth"
+            android:onClick="onkb_123_click"
+            android:padding="@dimen/kb_padding_sin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_statistics_sign1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_statistics_sign1_1"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_goe"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_01"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_statistics_sign1_2"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_loe"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_02"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_statistics_sign1_3"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_grthan"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_03"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_statistics_sign1_4"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_lethan"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_04"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_statistics_sign1_5"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_equal"
+            android:visibility="gone"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_05"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_statistics_sign3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="alpha"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_statistics_sign3_01"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="mu"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_statistics_sign3_02"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="sigma"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_statistics_sign3_03"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_statistics_sign4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_xbar"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_statistics_sign4_01"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_muxbar"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_statistics_sign4_02"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_sigmaxbar"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_statistics_sign4_03"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_statistics_sign6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="super_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_superscript"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="sub_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_subscript"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="super_sub_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_super_sub_script"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_statistics_sign7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="squareroot"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign5_01"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="nthroot"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign5_02"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_finitemath_sign1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_finitemath_sign1_1"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_goe"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_01"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_finitemath_sign1_2"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_loe"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_02"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_finitemath_sign1_3"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_grthan"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_03"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_finitemath_sign1_4"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_lethan"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_04"
+            />
+
+        <ImageView
+            android:id="@+id/kb_btn_sub_symbol_finitemath_sign1_5"
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_1"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="op_equal"
+            android:visibility="gone"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign1_05"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_finitemath_sign2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+                android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:tag="op_pi"
+                android:onClick="onkb_sub_symbol_click"
+                android:src="@drawable/kb_prealgebra_sign2_03"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+                android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:tag=" e"
+                android:onClick="onkb_123_click"
+                android:src="@drawable/kb_algebra_sign2_02"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+                android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:tag=" i"
+                android:onClick="onkb_123_click"
+                android:src="@drawable/kb_algebra_sign2_03"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+                android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:tag="alpha"
+                android:onClick="onkb_sub_symbol_click"
+                android:src="@drawable/kb_statistics_sign3_01"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+                android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:tag="mu"
+                android:onClick="onkb_sub_symbol_click"
+                android:src="@drawable/kb_statistics_sign3_02"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+                android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:tag="sigma"
+                android:onClick="onkb_sub_symbol_click"
+                android:src="@drawable/kb_statistics_sign3_03"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+                android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:tag="op_xbar"
+                android:onClick="onkb_sub_symbol_click"
+                android:src="@drawable/kb_statistics_sign4_01"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+                android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:tag="op_muxbar"
+                android:onClick="onkb_sub_symbol_click"
+                android:src="@drawable/kb_statistics_sign4_02"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+                android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:tag="op_sigmaxbar"
+                android:onClick="onkb_sub_symbol_click"
+                android:src="@drawable/kb_statistics_sign4_03"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_finitemath_sign4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="super_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_superscript"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="sub_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_subscript"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="super_sub_script"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_new_img_super_sub_script"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_finitemath_sign5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="squareroot"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign5_01"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag="nthroot"
+            android:onClick="onkb_sub_symbol_click"
+            android:src="@drawable/kb_basicmath_sign5_02"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_kb_sub_sumbol_finitemath_sign8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" log"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign8_01"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/kb_width_eq_sub_symbol_2"
+            android:layout_height="@dimen/kb_height_eq_sub_symbol_1"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:tag=" ln"
+            android:onClick="onkb_123_click"
+            android:src="@drawable/kb_algebra_sign8_02"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
